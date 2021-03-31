@@ -12,7 +12,7 @@ include 'database.php';
                             <div class="col-md-12">
                                 <div class="section-title-wrapper">
                                     <div class="section-title">
-                                        <h3>Свидетельство</h3>
+                                        <h3></h3>
                                         <p></p>
                                     </div>
                                 </div>
@@ -35,15 +35,15 @@ include 'database.php';
 <div class="container">
 	<div class="row">
 	
-    <a class="word-break-all" href="files/Свидетельство.pdf" target="_blank" rel="noopener" title="Свидетельство о государственной аккредитации">Свидетельство о государственной аккредитации</a>
-			
+
+    <a class="word-break-all" href="files/План финансово-хозяйственной.pdf" target="_blank" rel="noopener" title="Свидетельство о государственной аккредитации">Свидетельство о государственной аккредитации</a>
 
 
-		
 	</div>	
 </div>
 
-                    
+
+
 
 
  <?php 

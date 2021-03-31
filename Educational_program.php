@@ -35,11 +35,6 @@ include 'database.php';
 			<td>'.$row['Srok_obucheniya'].'</td>
             <td>'.$row['DOkonch_obuch'].'</td>
             <td>'.$row['YAzyk_obucheniya'].'</td>
-
-			<td><a href="Kabinetov.php?kod='.$row['Kod_educational'].'"><button tupe="button" class="btn btn-danger btnuvol" data-toggle="modal" data-target="#myModal" data-Kod_Pomejenia="'.
-			$row['Kod_Pomejenia'].'"data-AdresMestNaxojd="'.$row['AdresMestNaxojd'].'">Просмотреть</button></a></td>
-			
-
 			</tr>';
 		}
 			$result->free();

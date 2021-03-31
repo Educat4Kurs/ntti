@@ -2,6 +2,7 @@
 include 'temp/head.php';
 include 'temp/navbar.php';
 include 'temp/header.php';
+
 include 'database.php';
 ?>
 
@@ -12,7 +13,7 @@ include 'database.php';
                             <div class="col-md-12">
                                 <div class="section-title-wrapper">
                                     <div class="section-title">
-                                        <h3>Свидетельство</h3>
+                                        <h3>Отчет</h3>
                                         <p></p>
                                     </div>
                                 </div>
@@ -26,6 +27,7 @@ include 'database.php';
 		<div class="col">
 		
 
+
 	</div>
 	</div>
 </div>
@@ -35,15 +37,13 @@ include 'database.php';
 <div class="container">
 	<div class="row">
 	
-    <a class="word-break-all" href="files/Свидетельство.pdf" target="_blank" rel="noopener" title="Свидетельство о государственной аккредитации">Свидетельство о государственной аккредитации</a>
 			
+    <a class="word-break-all" href="files/Отчет.pdf" target="_blank" rel="noopener">Отчет о самообследовании 2017 год</a>
 
-
-		
+		</table>
 	</div>	
 </div>
 
-                    
 
 
  <?php 

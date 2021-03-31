@@ -11,8 +11,7 @@ include 'database.php';
                             <div class="col-md-12">
                                 <div class="section-title-wrapper">
                                     <div class="section-title">
-                                        <h3>Вид документа</h3>
-                                        <p>это в первую очередь рабочая комната, специально предназначенная для личных занятий и интеллектуальной работы</p>
+                                        <p><h3>Уставы</h3></p>
                                     </div>
                                 </div>
                             </div>
@@ -31,32 +30,11 @@ include 'database.php';
 
 <div class="container">
 	<div class="row">
-	<table class="table table-striped table-hover">
-			<tr>
-				<th>Шв вида документа</th>
-				<th>Наименование вида документа</th>
-			</tr>
-			
-<?php
-$result= $conn->query("select * from vidDokymenta1");
-
-while( $row = $result->fetch_array() )
- {
-echo '
-<td>'.$row['sw_vid_dok'].'</td>
-<td>'.$row['naim_vida_dok'].'</td>
-
-</tr>';
-}
-$result->free();
- 
-?>
-
-		</table>
-	</div>	
-</div>
-
-
+    
+    <a class="word-break-all" href="files/Устав.pdf" target="_blank" rel="noopener" title="Устав образовательной организации">Устав образовательной организации</a>
+	
+                </div>
+                </div>
 
 
 

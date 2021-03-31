@@ -21,14 +21,14 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                    <a href="Pomejenia.php"><img src="img/course/1.JPG" alt="" Length="150" Width="200"></a>
+                                    <a href="Pomejenia.php?Kod_Vida=2"><img src="img/course/1.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text" itemprop="purposeCab">
-                                        <h4><a href="Pomejenia.php">Сведения об оборудованных учебных кабинетах </a></h4>
+                                        <h4><a href="Pomejenia.php?Kod_Vida=2">Сведения об оборудованных учебных кабинетах </a></h4>
                                  <hr>
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="Pomejenia.php" class="button-default">Посмотреть</a>
+                                        <a href="Pomejenia.php?Kod_Vida=2" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>
@@ -36,15 +36,15 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                        <a href="Oborudovanie.php"><img src="img/course/2.JPG" alt="" Length="150" Width="200"></a>
+                                        <a href="Pomejenia.php?Kod_Vida=1"><img src="img/course/2.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text">
-                                        <h4><a href="Oborudovanie.php">Сведения об объектах для проведения практических занятий </a></h4>
+                                        <h4><a href="Pomejenia.php?Kod_Vida=1">Сведения об объектах для проведения практических занятий </a></h4>
                                         <hr>
                                         
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="Oborudovanie.php" class="button-default">Посмотреть</a>
+                                        <a href="Pomejenia.php?Kod_Vida=1" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>
@@ -53,15 +53,15 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                        <a href="Kabinetov.php"><img src="img/course/7.JPG" alt="" Length="150" Width="200"></a>
+                                        <a href="Pomejenia.php?Kod_Vida=5"><img src="img/course/7.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text">
-                                        <h4><a href="#">Сведения о библиотеке </a></h4>
+                                        <h4><a href="Pomejenia.php?Kod_Vida=5">Сведения о библиотеке </a></h4>
                                         
                                         <hr> 
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="Kabinetov.php" class="button-default">Посмотреть</a>
+                                        <a href="Pomejenia.php?Kod_Vida=5" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>
@@ -69,15 +69,15 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                        <a href="VidKabineta.php"><img src="img/course/4.JPG" alt="" Length="150" Width="200"></a>
+                                        <a href="Pomejenia.php?Kod_Vida=6"><img src="img/course/4.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text">
-                                        <h4><a href="#">Сведения об объектах спорта </a></h4>
+                                        <h4><a href="Pomejenia.php?Kod_Vida=6">Сведения об объектах спорта </a></h4>
                                         <hr>
 
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="VidKabineta.php" class="button-default">Посмотреть</a>
+                                        <a href="Pomejenia.php?Kod_Vida=6" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>
@@ -85,15 +85,15 @@
                             <div class="col-md-4 hidden-sm">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                        <a href="SvedObObUcKab.php"><img src="img/course/9.JPG" alt="" Length="150" Width="200"></a>
+                                        <a href="Pomejenia.php?Kod_Vida=7"><img src="img/course/5.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text">
-                                        <h4><a href="SvedObObUcKab.php">Сведения об условиях питания обучающихся</a></h4>
+                                        <h4><a href="Pomejenia.php?Kod_Vida=7">Сведения об условиях питания обучающихся</a></h4>
                                         <hr>
                                       
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="SvedObObUcKab.php" class="button-default">Посмотреть</a>
+                                        <a href="Pomejenia.php?Kod_Vida=7" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,15 +101,15 @@
                             <div class="col-md-4 col-sm-6">
                                 <div class="single-item" style="width: 22rem; height: 25rem;">
                                     <div class="single-item-image overlay-effect">
-                                        <a href="#"><img src="img/course/10.JPG" alt="" Length="150" Width="200"></a>
+                                        <a href="SvedOb.php"><img src="img/course/10.JPG" alt="" Length="150" Width="200"></a>
                                     </div>
                                     <div class="single-item-text">
-                                        <h4><a href="#">Сведения об условиях охраны здоровья обучающихся </a></h4>
+                                        <h4><a href="SvedOb.php">Сведения об условиях охраны здоровья обучающихся </a></h4>
                                       
                                         <hr>
                                     </div>
                                     <div class="button-bottom">
-                                        <a href="#" class="button-default">Посмотреть</a>
+                                        <a href="SvedOb.php" class="button-default">Посмотреть</a>
                                     </div>
                                 </div>
                             </div>

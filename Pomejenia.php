@@ -6,29 +6,44 @@ include 'temp/navbar.php';
 include 'database.php';
 ?>
  
-<div class="container">
-    <div class="row">
-        <table class="table table-striped">
-        <tr class="table-warning">
-<tr itemprop=”eduAccred”>
-<td>N</td>
-<td itemprop=”addressPlace”>почтовый индекс, субъект Российской Федерации, город, улица (переулок, бульвар), номер дома</td>
-</tr>
-<?php
-            $q = "select * from pomejenia";
-            $result = $conn->query($q);
-            foreach ($result as $row) {
+ <div class="container">
+     <div class="row">
+     </div>
+ </div>
+ <?php 	
+ $Kod_Vida=0;
+     if (!empty($_GET)) 
+     {
+         $Kod_Vida = $_GET['Kod_Vida'];
 
-       
-            
-            echo '<tr>
-            <td>'.$row['Kod_Pomejenia'].'</td>
-            <td>'.$row['AdresMestNaxojd'].'</td>
-			<td><a href="Kabinetov.php?kod='.$row['Kod_Pomejenia'].'"><button tupe="button" class="btn btn-danger btnuvol" data-toggle="modal" data-target="#myModal" data-Kod_Pomejenia="'.
-			$row['Kod_Pomejenia'].'"data-AdresMestNaxojd="'.$row['AdresMestNaxojd'].'">Просмотреть</button></a></td>
-            </tr>';
-        }
-            $result->free();
+     }
+ ?>	
+ 
+ 
+ <div class="container">
+     <div class="row">
+ 
+         <table class="table">
+             <tr itemprop="Pomejenia">
+                 <th itemprop="addressCab">Адрес места нахождения</th>
+                 <th itemprop="nameCab">Наименование оборудованного учебного кабинетова</th>
+                 <th itemprop="osnCab">Оснащенность оборудованного учебного кабинетова</th>
+             </tr>	
+ 
+ 
+             <?php
+             $sql = "select * from Pomejenia,kabinetov, vidkabineta where pomejenia.Kod_Pomejenia=kabinetov.Kod_Pomejenia  and vidkabineta.Kod_Vida=kabinetov.Kod_Vida and vidkabineta.Kod_Vida=".$Kod_Vida;
+             $result_table = $conn->query($sql);
+             foreach($result_table as $row)
+             {
+                 echo '<tr>
+                 <td itemprop="addressCab">'.$row['AdresMestNaxojd'].'</td>
+                 <td itemprop="nameCab">'.$row['NaimRfbinet'].'</td>
+                 <td><a href="oborudovanie.php?Kod_Kabinetova='.$row['Kod_Kabinetova'].'"><button tupe="button" class="btn btn-danger btnuvol">Просмотреть</button></a></td></tr>';
+             }
+             echo '</table>';
+             $result_table->close();
+     
 
             ?>
         </table>
