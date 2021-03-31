@@ -1,7 +1,6 @@
 <?php
-
 include 'temp/head.php';        
-                // <!-- ==========header=============== -->
+                // <!-- ==========header====ка=========== -->
     include 'temp/header.php';
                     // <!-- ==========navbar=============== -->
     include 'temp/navbar.php';
